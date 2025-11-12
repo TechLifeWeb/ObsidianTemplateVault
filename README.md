@@ -56,7 +56,7 @@ This is my Template Vault for Obsidian
 	- A templating language that lets you insert variables and functions results into your notes. It will also let you execute JavaScript code manipulating those variables and functions.
 
 # Personal Usage Guidelines
-I usually keep the following in a separate note and I keep is in the Root or as a Favorite. It helps to keep handy so you can remember your decisions
+I usually keep the following in a separate note that I keep in the Root or as a Favorite. It helps to keep handy so you can remember your decisions
 - Have a purpose about why you are making the note. This helps you be more focused on noting the details and not copy/pasting things whole cloth.
 - Avoid splitting content into multiple vaults.
 - Avoid folders for content.
