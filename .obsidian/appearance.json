@@ -1,1 +1,10 @@
-{}
+{
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "Lexend,Atkinson Hyperlegible,Inter",
+  "textFontFamily": "Lexend,Atkinson Hyperlegible,Inter",
+  "monospaceFontFamily": "Lucida Console,Courier New,Courier",
+  "enabledCssSnippets": [
+    "hidePropertiesInReadingMode"
+  ]
+}

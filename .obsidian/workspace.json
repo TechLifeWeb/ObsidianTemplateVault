@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bff329c59e05350c",
+        "id": "a273713465efb970",
         "type": "tabs",
         "children": [
           {
-            "id": "905440152f5099f5",
+            "id": "98e0b60be874772d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -30,19 +34,6 @@
         "id": "099ee2304ed9d49d",
         "type": "tabs",
         "children": [
-          {
-            "id": "1d97c583d1f9dfe3",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "5a4f7f9a09c59c46",
             "type": "leaf",
@@ -68,6 +59,26 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e770ccec4af83c7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d97c583d1f9dfe3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ]
@@ -159,9 +170,40 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "905440152f5099f5",
-  "lastOpenFiles": []
+  "active": "98e0b60be874772d",
+  "lastOpenFiles": [
+    "Vault Setup Notes.md",
+    "README.md",
+    "Notes/Obsidian.md",
+    "Support/Navigation/🗂️Resources.md",
+    "Support/Navigation/📥In Box.md",
+    "Notes/List everything Dataview can see on a page.md",
+    "Support/Navigation/📈Stats.md",
+    "Notes/Daemon.md",
+    "Notes/Books.md",
+    "Support/Templates/Code - Subcategory List.md",
+    "Support/Bases/base-subcategory_list.md",
+    "Support/Bases/base-category_list.md",
+    "Support/Templates/Code - Category List.md",
+    "Support/Bases",
+    "Support/Navigation/🌐Areas.md",
+    "Support/Templates/Default Template.md",
+    "Support/Navigation/😎 Favorites.md",
+    "Support/Navigation/💼Efforts.md",
+    "Notes/Test Pod.md",
+    "Notes/A Test.md",
+    "Support/Templates/Daily Note Template.md",
+    "Notes/Daily",
+    "Files",
+    "Notes",
+    "Support/Templates",
+    "Support/Navigation",
+    "Support/Bases",
+    "Support"
+  ]
 }

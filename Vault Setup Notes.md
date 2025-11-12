@@ -1,0 +1,128 @@
+# Getting Started
+I consistently organize my vaults in a standard manner. I store this file at the root level of my folder structure for quick and easy access. Whenever I add or modify a plugin, I update the notes in this document accordingly. Some changes are straightforward, while others are more complex, so maintaining a record ensures clear documentation for future reference.
+
+## Initial Vault Setup
+- Open Settings
+	- Editor Tab
+		- Turn off Readable Line Length
+	- Files and Link Tab
+		- Turn off Confirm file deletion
+		- Turn on Automatically update internal links
+		- Set Default location for new notes to "In the folder specified below"
+			- Set the folder to "Notes"
+		- Turn on Detect all file extensions
+		- Set Attachment folder path to "In the folder specified below"
+			- Set the folder to "Files"
+	- Appearance Tab
+		- Set Base color scheme to Dark
+		- Click the "Manage" button and install the Minimal Theme
+		- Check for updates on the Minimal Theme
+		- Set fonts. These are **system dependent**. The ones I use are in order:
+			- Lexend
+			- Atkinson Hyperlegible
+			- Inter
+		- For Monospace font I set:
+			- Consolas or Lucida Console
+			- Courier New
+			- Courier
+		- Adjust font size if desired
+	- Core Plugins
+		- Templates
+			- Set the Template folder location to: Support/Templates
+		- Daily Notes
+			- Set New file location to: Notes/Daily
+			- Set Template file to Support/Templates/Daily Note Template
+		- Page Preview
+			- If you don't want the page to popup when you hover over a link, go to the settings for this plugin and under "Require ctrl to trigger page preview on hover," turn ON "Reading View " in the settings for this plugin
+	- Community Plugins
+		- Click Turn On Community Plugins
+		- Browse, install and enable these plugins
+			- Templater
+				- Set Template folder location to: Support/Templates
+				- Turn on Automatic jump to cursor
+				- Turn on Trigger Template on new file creation
+				- Turn on Enable folder templates
+					- Set the Notes folder default template to Support/Templates/Default Template.md
+			- Commander
+				- Tab Bar
+					- Add Toggle Live Preview/Source mode
+					- Templater: Open insert template modal
+			- Dataview
+				- Enable JavaScript queries
+				- Enable inline JavaScript queries
+				- Turn off Warn on empty result (Note: you may want this on, I think it looks cleaner with it off)
+				- Set the Date Format to: yyyy-MM-dd
+			- Minimal Theme Settings
+				- I set the Dark mode color scheme to Flexoki. Adjust how you like it or leave default
+				- Turn on Colorful window frame
+				- Turn on Colorful active states
+				- Turn on Colorful headings
+			- Omnisearch
+				- Also install Text Extractor if you want to index PDFs
+				- Turn on 'Save index to cache'
+			- MSG Handler (optional)
+				- This lets you open MSG and EML files
+			- Style Settings (optional)
+				- This allows even more control over how things look in your vault
+			- Paste Image PNG to JPG
+				- Default all options on
+			- HTML Reader (optional)
+				- Lets you open .HTML files
+			- Lazy Plugin Loader (optional)
+				- Lets you specify a delay for some plugins or even leave some turned off
+				- Main setting to turn on is Separate Desktop/Mobile
+				- Then adjust your plugins. I find most can be left to instant but there are a few like Omnisearch that can be set to delay or even off for Mobile.
+			- Linter
+				- General tab
+					- Turn on Lint on save
+					- Turn on Display message on lint
+					- Turn on Lint on Focused File Change
+					- Folders to ignore
+						- Support
+						- Support/Navigation
+						- Support/Templates
+						- Files
+					- YAML tab
+						- Turn on Add Blank Line After YAML
+						- Turn on Removes duplicate array values in a case sensitive manner. This enables all the YAML settings by default. Leave them on.
+						- Turn on Remove Hashtags from tags
+					- H1 Heading tab
+						- Turn on Headings should be formatted with capitalization
+						- Set the Style to Title Case
+						- Turn on Ignore Cased Words
+					- X2 - no changes on this tab
+					- Content Tab
+						- Turn on Auto-correct Common Misspellings
+						- Turn on Blockquote Style
+						- Turn on Convert Bullet List Markers
+						- Turn on Emphasis Style
+						- Turn on Ordered List Style
+						- Turn on Proper Ellipsis
+						- Turn on Remove Consecutive List Markers
+						- Turn on Remove Empty List Markers
+						- Turn on Remove Hyphenated Line Breaks
+						- Turn on Remove Multiple Spaces
+						- Turn on Strong Style
+						- Turn on Unordered List Style
+					- Spacing Tab
+						- Turn on Compact YAML
+						- Turn on Consecutive blank lines
+						- Turn on Converts Spaces to Tabs
+						- Turn on Empty Line Around Blockquotes
+						- Turn on Heading Blank lines
+							- Turn off Bottom
+							- Turn on Empty Line Between YAML and Header
+						- Turn on Line Break at Document END
+						- Turn on Remove Empty Lines Between List Markers and Checklists
+						- Turn on Space after list markers
+						- Turn on Training Spaces
+							- Enable Removes extra spaces after each line
+							- Turn on Two Space Line break
+					- Paste Tab
+						- Turn on ALL settings
+			- Plugin Update Tracker
+				- Set Days until new plugin versions are shows to 2
+				- Turn on Ignore Updates to Disabled Plugins
+				- Set to check once every 24 hours
+			- Harper
+				- Set the proper English Dialect to your location
