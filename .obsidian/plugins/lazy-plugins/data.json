@@ -29,6 +29,15 @@
       },
       "templater-obsidian": {
         "startupType": "instant"
+      },
+      "harper": {
+        "startupType": "instant"
+      },
+      "obsidian-linter": {
+        "startupType": "instant"
+      },
+      "obsidian-plugin-update-tracker": {
+        "startupType": "instant"
       }
     }
   }

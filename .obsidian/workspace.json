@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a273713465efb970",
+        "id": "3ec7fdf675ee6b17",
         "type": "tabs",
         "children": [
           {
-            "id": "98e0b60be874772d",
+            "id": "a29d143edd219eec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -175,23 +175,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "98e0b60be874772d",
+  "active": "a29d143edd219eec",
   "lastOpenFiles": [
-    "Vault Setup Notes.md",
-    "README.md",
-    "Notes/Obsidian.md",
-    "Support/Navigation/🗂️Resources.md",
     "Support/Navigation/📥In Box.md",
     "Notes/List everything Dataview can see on a page.md",
-    "Support/Navigation/📈Stats.md",
     "Notes/Daemon.md",
+    "Notes/Test note with no links.md",
+    "Support/Navigation/🌐Areas.md",
+    "Support/Navigation/📈Stats.md",
+    "README.md",
+    "Vault Setup Notes.md",
+    "Notes/Obsidian.md",
+    "Support/Navigation/🗂️Resources.md",
     "Notes/Books.md",
     "Support/Templates/Code - Subcategory List.md",
     "Support/Bases/base-subcategory_list.md",
     "Support/Bases/base-category_list.md",
     "Support/Templates/Code - Category List.md",
     "Support/Bases",
-    "Support/Navigation/🌐Areas.md",
     "Support/Templates/Default Template.md",
     "Support/Navigation/😎 Favorites.md",
     "Support/Navigation/💼Efforts.md",

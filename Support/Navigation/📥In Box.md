@@ -1,5 +1,6 @@
-This file shows any Notes that have been linked to but have not been created yet.
+Notes that have been linked to but not created and Notes that have not linked to anything else.
 
+# Linked to but not created
 ```base
 formulas:
   Untitled: file.links.filter(!value.asFile().isTruthy())
@@ -21,3 +22,16 @@ views:
 
 ```
 
+# Notes without links
+```base
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.links.isEmpty()
+        - '!file.path.contains("Files")'
+        - '!file.path.contains("Support")'
+        - '!file.path.contains("Daily")'
+
+```
