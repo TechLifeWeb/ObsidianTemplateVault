@@ -22,11 +22,9 @@ This is my Template Vault for Obsidian
 # Templates
 - Default Template: Gets applied to all notes except Daily Notes
 - Daily Notes: For Daily Notes
-- Code - Subcategory List
-	- This is code is magical Dataview code that pulls in a Base with a similar name. It is for displaying linked notes by Subcategory.
-- Code - Category List
-	- More magical Dataview code the pulls in a Base.
-- The "magic" of these code snippets is that the snippet pulls in code when the note is displayed rather than actually living on the note itself. This allows me to change the design of the template ONCE and it is applied to ALL notes where this code is displayed. For example, I could change the design of a Base or add text to the template and now instantly all notes with that code have the changes rather than having to reedit all the notes.
+- Add SubCategoryList Base
+	- This is code is the pastes in the text to link to a Base of similar name so I don't have to remember it. It is for displaying linked notes by Subcategory.
+- The "magic" of these code snippets is that the snippet pulls in code when the note is displayed rather than actually living on the note itself. This allows me to change the design of the template ONCE and it is applied to ALL notes where this code is displayed. For example, I could change the design of a Base and now instantly all notes with that code have the changes rather than having to reedit all the notes.
 
 # Plugins I Use
 - Commander

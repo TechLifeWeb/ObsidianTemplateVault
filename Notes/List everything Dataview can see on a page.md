@@ -12,4 +12,3 @@ aliases: []
 
 Below is a link to a note that I haven't actually created
 [[The answer to life the universe and everything]]
-

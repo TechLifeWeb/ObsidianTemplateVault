@@ -1,0 +1,30 @@
+formulas:
+  Note: file.asLink(if(title != "", title, Note))
+  noteTitle: if(title,file.asLink(title),file.asLink(file.name))
+  Untitled: ""
+properties:
+  file.subcategory:
+    displayName: Category
+  file.name:
+    displayName: Note
+  note.subcategory:
+    displayName: SubCategory
+views:
+  - type: table
+    name: List
+    filters:
+      and:
+        - file.hasLink(this.file)
+        - file.path.contains("Notes")
+        - '!file.path.contains("OBTF")'
+    groupBy:
+      property: subcategory
+      direction: ASC
+    order:
+      - formula.noteTitle
+    sort:
+      - property: subcategory
+        direction: ASC
+      - property: formula.noteTitle
+        direction: ASC
+    indentProperties: true
