@@ -170,9 +170,7 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "bases:Create new base": false
     }
   },
   "active": "0c328eab07190463",
